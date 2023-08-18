@@ -166,7 +166,7 @@ def main():
         opt_df.iloc[:,-1] = label
         new_df = pd.concat([df, opt_df], ignore_index=True)
         update_the_spreadsheet('Sheet1', new_df)
-        st.write(new_df)
+        #st.write(new_df)
 
     # Display the result
     st.success(result)
