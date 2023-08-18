@@ -4,7 +4,7 @@ This project aims to Optimize ML models and deploy the best ML algorithm using S
 
 The project has been done in collaboration with [Dieu-Donne Fangnon](https://github.com/dfangnon), [Phanie Dianelle Negho](https://github.com/PhanieDianelle) and [Solafa Fadlallah](https://github.com/Solafa11).
 
-The app can be tested using this [link](https://nguefackuriel-hepathitis-c-pr-hepatitis-c-prediction-app-xdxi9n.streamlit.app/)
+The app can be tested using this [link](https://gliomaprediction.streamlit.app/)
 
 We are currently working on the paper which will be released soon.
 
