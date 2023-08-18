@@ -2,13 +2,14 @@ import numpy as np
 import streamlit as st
 import pickle
 import pandas as pd
-import sklearn
-from sklearn.preprocessing import OneHotEncoder
+
 from pandas import DataFrame
 
 from google.oauth2 import service_account
 #from gsheetsdb import connect
 from gspread_pandas import Spread,Client
+import sklearn
+from sklearn.preprocessing import OneHotEncoder
 
 
 
