@@ -2,7 +2,7 @@
 
 This project aims to Optimize ML models and deploy the best ML algorithm using Streamlit for Glioma grading tumors.
 
-The project has been done in collaboration with [Dieu-Donne Fangnon](https://github.com/dfangnon), [Phanie Dianelle Negho](https://github.com/PhanieDianelle) and [Solafa Fadlallah](https://github.com/Solafa11).
+The project has been done in collaboration with [Dieu-Donne Fangnon](https://github.com/dfangnon), [Phanie Dianelle Negho](https://github.com/PhanieDianelle), [Solafa Fadlallah](https://github.com/Solafa11) and [Kobby Pandford-Quainoo](https://github.com/panford).
 
 The app can be tested using this [link](https://gliomaprediction.streamlit.app/)
 
