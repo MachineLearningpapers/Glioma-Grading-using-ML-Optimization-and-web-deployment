@@ -91,7 +91,7 @@ def main():
     col1, col2 = st.columns(2)
     # Getting the Input from the user
     
-    Age = col1.text_input('Age of the patient')
+    Age = col1.text_input('Age of the patient',45)
     Gender = col1.selectbox('Gender of the patient(Male/Female)', ['Male', 'Female'], key='Gender')
     Race = col1.selectbox('Select the race of the patient',['white', 'asian', 'black or african american','american indian or alaska native'], key='Race' )
     IDH1 = col1.selectbox('Select the IDH1(isocitrate dehydrogenase) value', ['NOT_MUTATED', 'MUTATED'], key='IDH1')
