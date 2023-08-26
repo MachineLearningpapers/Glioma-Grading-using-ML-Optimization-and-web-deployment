@@ -79,7 +79,7 @@ def main():
     # Replicate Credentials
     with st.sidebar:
         st.title('Glioma prediction App')
-        st.markdown('This Web App has been designed to give users the test our Glioma prediction model and provide any feedback they may have. You can fill the information about the patient and Click on the Glioma Test result button to get the result')
+        st.markdown('This Web App has been designed to allow users to test our Glioma prediction model and provide any feedback they may have. You can fill in the information about the patient and Click on the Glioma Test result button to get the result. The information you will provide as well as the prediction will be sent to the Database.')
         st.image('glioma_picture.jpeg')
         
         
@@ -143,8 +143,7 @@ def main():
      }
 
     df_ = pd.DataFrame(data)
-    #df_['Age_at_diagnosis'] = df_['Age_at_diagnosis'].astype(float)
-    #df_['Age_at_diagnosis'] = float(df_['Age_at_diagnosis'].iloc[0])#.apply(pd.to_numeric, errors='coerce')
+    df_['Age_at_diagnosis'] = df_['Age_at_diagnosis'].astype(float)
     numeric_cols = df_.select_dtypes(include=np.number).columns.tolist()
     df_[encoded_cols] = encoder.transform(df_[categorical_cols])
     X = df_[numeric_cols + encoded_cols]
