@@ -143,7 +143,7 @@ def main():
      }
 
     df_ = pd.DataFrame(data)
-    df_['Age_at_diagnosis'] = df_['Age_at_diagnosis'].astype(float)
+    #df_['Age_at_diagnosis'] = df_['Age_at_diagnosis'].astype(float)
     #df_['Age_at_diagnosis'] = float(df_['Age_at_diagnosis'].iloc[0])#.apply(pd.to_numeric, errors='coerce')
     numeric_cols = df_.select_dtypes(include=np.number).columns.tolist()
     df_[encoded_cols] = encoder.transform(df_[categorical_cols])
