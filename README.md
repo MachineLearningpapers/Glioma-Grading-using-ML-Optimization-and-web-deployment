@@ -5,5 +5,4 @@ This project aims to Optimize ML models and deploy the best ML algorithm using S
 
 The app can be tested using this [link](https://gliomaprediction.streamlit.app/)
 
-We are currently working on the paper which will be released soon.
 
